@@ -29,7 +29,7 @@ class InspiringCommand extends Command
     public function handle()
     {
         $startPage = 1;
-        $endPage = 1;
+        $endPage = 100;
         foreach (range($startPage, $endPage) as $page) {
             $url = 'https://www.tokopedia.com/p/handphone-tablet/handphone?ob=5&page=' . $page;
 
